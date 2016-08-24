@@ -164,7 +164,7 @@ class CetTicket(object):
 
 if __name__ == '__main__':
         ct = CetTicket()
-	print(ct.find_ticket_number(u'50', u'重庆交通大学', u'韩竞', cet_type=CetTicket.CET4))
+	print(ct.find_ticket_number(u'50', u'重庆xx大学', u'张三', cet_type=CetTicket.CET4))
 	"""
-		print(ct.get_score(u'508070161101411',u'韩竞'))
+		print(ct.get_score(u'508070112345678',u'张三'))
 	"""
