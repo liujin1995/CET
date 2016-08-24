@@ -16,8 +16,8 @@ die();
 echo "1";
 $name = str_replace(" ", "", $name);
 $ret = $type == 1 ?
-shell_exec("python cadtag/cet4.py '$province' '$school' '$name'") :
-shell_exec("python cadtag/cet6.py '$province' '$school' '$name'");
+shell_exec("python cetalldata/cet4.py '$province' '$school' '$name'") :
+shell_exec("python cetalldata/cet6.py '$province' '$school' '$name'");
 /*
 $login_url="http://find.cet.99sushe.com/search";
 echo $data=$ret;
