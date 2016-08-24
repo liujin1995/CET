@@ -17,7 +17,7 @@ die();
 
 
 $name = str_replace(" ", "", $name);
-$ret = shell_exec("python cadtag/cet4.py '$ticket' '$name'");
+$ret = shell_exec("python cetalldata/cet4.py '$ticket' '$name'");
   $ret = json_decode($ret, true);
 
         if ($ret['name'] !== null) {
