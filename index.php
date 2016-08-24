@@ -11,7 +11,7 @@ header("location:http://www.unique-liu.com/cet/");
 <meta name="baidu-site-verification" content="elifkrmPVG" />
 <?php
 require_once "sdk.php";
-$jssdk = new JSSDK("wxca8373b65e268443", "d4624c36b6795d1d99dcf0547af5443d");
+$jssdk = new JSSDK("", "");
 $signPackage = $jssdk->GetSignPackage();
 $_SESSION['yzm']=$signPackage["signature"];
 ?>
